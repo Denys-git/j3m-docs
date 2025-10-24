@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'J3M Sequencer Docs',
   tagline: 'Навігація та функції J3M',
-  url: 'https://denys-git.github.io',   // основна адреса сайту
-  baseUrl: '/j3m-docs/',                // назва репозиторію на GitHub
+  url: 'https://superlative-brioche-3d85ef.netlify.app',  // твій Netlify-домен
+  baseUrl: '/',                                          // сайт з кореня
   favicon: 'img/favicon.ico',
 
   future: {
@@ -49,7 +49,7 @@ const config: Config = {
     ],
   ],
 
-  // 🔍 додаємо локальний пошук тут — усередині об’єкта config
+  // 🔍 локальний пошук
   plugins: [require.resolve('@easyops-cn/docusaurus-search-local')],
 
   themeConfig: {
