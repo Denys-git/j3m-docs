@@ -1,0 +1,43 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/j3m-docs/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/j3m-docs/docs",
+          "mainDocId": "navigation/overview",
+          "docs": [
+            {
+              "id": "features/general-planning",
+              "path": "/j3m-docs/docs/features/general-planning",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "navigation/modules",
+              "path": "/j3m-docs/docs/navigation/modules",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "navigation/overview",
+              "path": "/j3m-docs/docs/navigation/overview",
+              "sidebar": "docsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docsSidebar": {
+              "link": {
+                "path": "/j3m-docs/docs/navigation/overview",
+                "label": "navigation/overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

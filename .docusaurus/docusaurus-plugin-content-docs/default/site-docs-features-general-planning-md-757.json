@@ -1,0 +1,20 @@
+{
+  "id": "features/general-planning",
+  "title": "General Planning",
+  "description": "Основний модуль для інженерів — планування робіт на об’єкті.",
+  "source": "@site/docs/features/general-planning.md",
+  "sourceDirName": "features",
+  "slug": "/features/general-planning",
+  "permalink": "/j3m-docs/docs/features/general-planning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Denys-git/j3m-docs/tree/main/docs/features/general-planning.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Модулі J3M",
+    "permalink": "/j3m-docs/docs/navigation/modules"
+  }
+}

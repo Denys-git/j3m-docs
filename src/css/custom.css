@@ -1,0 +1,133 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* === J3M Brand Colors === */
+:root {
+  --ifm-color-primary: #f47c20;        /* Помаранчевий */
+  --ifm-color-primary-dark: #d66d1c;
+  --ifm-color-primary-darker: #b95e17;
+  --ifm-color-primary-darkest: #944d12;
+  --ifm-color-primary-light: #ffa256;
+  --ifm-color-primary-lighter: #ffc48c;
+  --ifm-color-primary-lightest: #ffe3c1;
+
+  --ifm-navbar-background-color: #2b2b2b; /* Графітовий */
+  --ifm-footer-background-color: #2b2b2b;
+  --ifm-navbar-link-color: #f5f5f5;
+  --ifm-navbar-link-hover-color: #f47c20;
+  --ifm-footer-link-color: #dddddd;
+  --ifm-footer-link-hover-color: #ffffff;
+
+  --ifm-link-color: #f47c20;
+  --ifm-link-hover-color: #d66d1c;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Для темного режиму */
+[data-theme='dark'] {
+  --ifm-color-primary: #ffa256;
+  --ifm-color-primary-dark: #f47c20;
+  --ifm-color-primary-darker: #d66d1c;
+  --ifm-color-primary-light: #ffc48c;
+  --ifm-color-primary-lighter: #ffe3c1;
+  --ifm-navbar-background-color: #1f1f1f;
+  --ifm-footer-background-color: #1f1f1f;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
+
+/* === Custom styling for Table of Contents (TOC) === */
+.theme-doc-toc-desktop {
+  background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.theme-doc-toc-desktop .table-of-contents__link {
+  color: #444;
+  text-decoration: none;
+}
+
+.theme-doc-toc-desktop .table-of-contents__link:hover {
+  color: #f47c20;
+}
+
+/* === Typography improvements === */
+.markdown h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.markdown h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #333;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 0.3rem;
+}
+
+.markdown p {
+  line-height: 1.7;
+  color: #444;
+  font-size: 1rem;
+}
+
+.markdown ul {
+  margin-left: 1.2rem;
+}
+
+.markdown li {
+  margin-bottom: 0.3rem;
+}
+
+.markdown strong {
+  color: #000;
+}
+
+/* === Search (local) styling === */
+.DocSearch-Button {
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  transition: all 0.2s ease-in-out;
+}
+
+.DocSearch-Button:hover {
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.DocSearch-Modal {
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.DocSearch-Input {
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 0.5rem 0.8rem;
+}
+
+.DocSearch-Hit a {
+  border-radius: 6px;
+  padding: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.DocSearch-Hit a:hover {
+  background-color: #fff6ef;
+}

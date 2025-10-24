@@ -1,0 +1,24 @@
+{
+  "id": "navigation/modules",
+  "title": "Модулі J3M",
+  "description": "Короткий огляд основних модулів:",
+  "source": "@site/docs/navigation/modules.md",
+  "sourceDirName": "navigation",
+  "slug": "/navigation/modules",
+  "permalink": "/j3m-docs/docs/navigation/modules",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Denys-git/j3m-docs/tree/main/docs/navigation/modules.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Огляд навігації",
+    "permalink": "/j3m-docs/docs/navigation/overview"
+  },
+  "next": {
+    "title": "General Planning",
+    "permalink": "/j3m-docs/docs/features/general-planning"
+  }
+}
